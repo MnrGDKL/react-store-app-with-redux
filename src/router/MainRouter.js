@@ -20,19 +20,19 @@ const MainRouter = () => {
     <>
       <HomeNavbar />
       <Routes>
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/women" element={<WomenPage />} />
-        <Route path="/man" element={<ManPage />} />
-        <Route path="/jew" element={<JewerlyPages />} />
-        <Route path="/elect" element={<ElectronicPage />} />
-        <Route path="/all" element={<AllPage />} />
-        <Route path="product/:id" element={<CardDetails />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/shopcart" element={<ShopCart />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/react-store-app-with-redux/register" element={<Register />} />
+        <Route path="/react-store-app-with-redux/login" element={<Login />} />
+        <Route path="/react-store-app-with-redux/" element={<Home />} />
+        <Route path="/react-store-app-with-redux/women" element={<WomenPage />} />
+        <Route path="/react-store-app-with-redux/man" element={<ManPage />} />
+        <Route path="/react-store-app-with-redux/jew" element={<JewerlyPages />} />
+        <Route path="/react-store-app-with-redux/elect" element={<ElectronicPage />} />
+        <Route path="/react-store-app-with-redux/all" element={<AllPage />} />
+        <Route path="/react-store-app-with-redux/product/:id" element={<CardDetails />} />
+        <Route path="/react-store-app-with-redux/search" element={<Search />} />
+        <Route path="/react-store-app-with-redux/shopcart" element={<ShopCart />} />
+        <Route path="/react-store-app-with-redux/about" element={<About />} />
+        <Route path="/react-store-app-with-redux/contact" element={<Contact />} />
         
       </Routes>
     </>

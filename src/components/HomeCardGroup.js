@@ -22,7 +22,7 @@ const HomeCardGroup = ({ data, loading }) => {
           <Card.Body className="cardbody">
             <Card.Title>{data[0].category}</Card.Title>
             <Card.Text></Card.Text>
-            <Button as={Link} to="/man" variant="outline-warning">
+            <Button as={Link} to="/react-store-app-with-redux/man" variant="outline-warning">
               Shop GO
             </Button>
           </Card.Body>
@@ -40,7 +40,7 @@ const HomeCardGroup = ({ data, loading }) => {
           <Card.Body className="cardbody">
             <Card.Title>{data[10].category}</Card.Title>
             <Card.Text></Card.Text>
-            <Button as={Link} to="/elect" variant="outline-warning">
+            <Button as={Link} to="/react-store-app-with-redux/elect" variant="outline-warning">
               Shop GO
             </Button>
           </Card.Body>
@@ -53,7 +53,7 @@ const HomeCardGroup = ({ data, loading }) => {
           <Card.Body className="cardbody">
             <Card.Title>{data[17].category}</Card.Title>
             <Card.Text>
-              <Button as={Link} to="/women" variant="outline-warning">
+              <Button as={Link} to="/react-store-app-with-redux/women" variant="outline-warning">
                 Shop GO
               </Button>
             </Card.Text>

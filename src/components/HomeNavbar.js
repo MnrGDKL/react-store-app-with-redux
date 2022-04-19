@@ -36,28 +36,27 @@ const HomeNavbar = () => {
     // setProductKey(searchValue)
     console.log(productKey)
     dispatch(getProductSearch(searchValue))
-    navigate('/search')
+    navigate('/react-store-app-with-redux/search')
     setSearchValue('')
   }
 
   const handleLogout = () => {
-    console.log('muas')
     signOut(auth)
     dispatch(setActionUser(''))
-    navigate('/home')
+    navigate('/react-store-app-with-redux/home')
   }
 
   return (
     <Navbar bg="light" expand="md">
       <Container fluid>
-        <Navbar.Brand className="bg-warning text-dark fw-bolder p-2 border rounded-3" as={Link} to="/">
+        <Navbar.Brand className="bg-warning text-dark fw-bolder p-2 border rounded-3" as={Link} to="/react-store-app-with-redux/">
           REACT REDUX STORE
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className=" ms-auto mx-5 my-lg-0">
             {' '}
-            <Nav.Link className="text-dark fw-bold" as={Link} to="/">
+            <Nav.Link className="text-dark fw-bold" as={Link} to="/react-store-app-with-redux/">
               Home
             </Nav.Link>
             <NavDropdown
@@ -69,7 +68,7 @@ const HomeNavbar = () => {
                 id="navdropitems"
                 className="text-dark"
                 as={Link}
-                to="/man"
+                to="/react-store-app-with-redux/man"
               >
                 Men's Clothing
               </NavDropdown.Item>
@@ -77,7 +76,7 @@ const HomeNavbar = () => {
                 id="navdropitems"
                 className="text-dark hv-warning"
                 as={Link}
-                to="/women"
+                to="/react-store-app-with-redux/women"
               >
                 Women's Clothing
               </NavDropdown.Item>
@@ -86,7 +85,7 @@ const HomeNavbar = () => {
                 id="navdropitems"
                 className="text-dark"
                 as={Link}
-                to="/jew"
+                to="/react-store-app-with-redux/jew"
               >
                 Jewerly
               </NavDropdown.Item>
@@ -94,7 +93,7 @@ const HomeNavbar = () => {
                 id="navdropitems"
                 className="text-dark"
                 as={Link}
-                to="/elect"
+                to="/react-store-app-with-redux/elect"
               >
                 Electronic
               </NavDropdown.Item>
@@ -103,15 +102,15 @@ const HomeNavbar = () => {
                 id="navdropitems"
                 className="text-dark fw-bolder"
                 as={Link}
-                to="/all"
+                to="/react-store-app-with-redux/all"
               >
                 All Products
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="text-dark fw-bold" as={Link} to="/about">
+            <Nav.Link className="text-dark fw-bold" as={Link} to="/react-store-app-with-redux/about">
               About
             </Nav.Link>
-            <Nav.Link className="text-dark fw-bold" as={Link} to="/contact">
+            <Nav.Link className="text-dark fw-bold" as={Link} to="/react-store-app-with-redux/contact">
               Contact
             </Nav.Link>
           </Nav>
@@ -142,10 +141,10 @@ const HomeNavbar = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link className="text-dark fw-bold" as={Link} to="/login">
+              <Nav.Link className="text-dark fw-bold" as={Link} to="/react-store-app-with-redux/login">
                 LOGIN
               </Nav.Link>
-              <Nav.Link className="text-dark fw-bold" as={Link} to="/register">
+              <Nav.Link className="text-dark fw-bold" as={Link} to="/react-store-app-with-redux/register">
                 REGISTER
               </Nav.Link>
             </Nav>
@@ -156,7 +155,7 @@ const HomeNavbar = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link as={Link} to="/shopcart">
+              <Nav.Link as={Link} to="/react-store-app-with-redux/shopcart">
                 <div
                   className="shop-cart"
                   style={{ display: 'flex', alignItems: 'center' }}
@@ -199,7 +198,7 @@ const HomeNavbar = () => {
                 onClick={handleLogout}
                 className="text-dark fw-bold"
                 as={Link}
-                to="/login"
+                to="/react-store-app-with-redux/login"
               >
                 LOGOUT
               </Nav.Link>

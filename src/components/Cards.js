@@ -30,7 +30,7 @@ const Cards = ({ data }) => {
         style={{ width: '18rem', minHeight: '28rem', borderRadius: '5px' }}
         className="text-center mx-2 shadow-lg "
       >
-        <Link to={`/product/${data.id}`}>
+        <Link to={`/react-store-app-with-redux/product/${data.id}`}>
           <Card.Img
             variant="top"
             src={data.image}

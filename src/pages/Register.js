@@ -15,7 +15,7 @@ const Register = () => {
     setError('')
     try {
       await createUserWithEmailAndPassword(auth, email, password)
-      navigate('/login')
+      navigate('/react-store-app-with-redux/login')
     } catch (error) {
       setError(error)
     } finally {

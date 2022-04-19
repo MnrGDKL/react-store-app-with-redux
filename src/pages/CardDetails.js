@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { getProductDetails } from '../redux/thunk/productDetails'
 import { additemThunk } from '../redux/thunk/addItemThunk'
+import loadingImg from "../utilities/loading.gif";
 
 const CardDetails = () => {
   const { id } = useParams()
@@ -14,14 +15,14 @@ const CardDetails = () => {
   const { selectedProduct } = useSelector((state) => state.ReducerProduct)
   const { loading } = useSelector((state) => state.ReducerLoading)
   const { user } = useSelector((state) => state.ReducerUse)
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(getProductDetails(id))
   }, [])
 
   const Loading = () => {
-    return <div>musa</div>
+    return <div><img src={loadingImg} alt="" /></div>
   }
 
   const addCartHandle = (id) => {
@@ -32,7 +33,7 @@ const CardDetails = () => {
       })
     } else {
       dispatch(additemThunk(id))
-      navigate('/shopcart')
+      navigate('/react-store-app-with-redux/shopcart')
     }
   }
 

@@ -30,7 +30,7 @@ const Login = () => {
       onAuthStateChanged(auth, (currentUser) => {
         dispatch(setActionUser(setCurrentUser(currentUser.email)))
       })
-      navigate('/')
+      navigate('/react-store-app-with-redux/')
     } catch (error) {
       setError(error)
     } finally {
@@ -51,7 +51,7 @@ const Login = () => {
     await onAuthStateChanged(auth, (currentUser) => {
       dispatch(setActionUser(setCurrentUser(currentUser.email)))
     })
-    navigate('/')
+    navigate('/react-store-app-with-redux/')
   }
 
   return (

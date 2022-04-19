@@ -1,6 +1,5 @@
 import {
   setActionAddItems,
-  setActionRemoveItems,
 } from '../actions/ActionAdditems'
 
 export const additemThunk = (id) => async (dispatch, getState) => {

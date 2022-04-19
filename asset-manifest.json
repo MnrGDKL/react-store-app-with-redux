@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-store-app-with-redux/static/css/main.cc86e729.css",
+    "main.js": "/react-store-app-with-redux/static/js/main.b69c05f6.js",
+    "static/media/bg1.jpg": "/react-store-app-with-redux/static/media/bg1.23d1adc5f937322bdc0b.jpg",
+    "static/media/Q2.jpg": "/react-store-app-with-redux/static/media/Q2.9333ffff65359ff1cefc.jpg",
+    "static/media/Q1.jpg": "/react-store-app-with-redux/static/media/Q1.9a8699992c735b536b33.jpg",
+    "static/media/Q3.jpg": "/react-store-app-with-redux/static/media/Q3.ef32cc1fbb7189652ed6.jpg",
+    "static/media/bg2.jpg": "/react-store-app-with-redux/static/media/bg2.b4daf462e265b11f0e69.jpg",
+    "static/media/storebg.jpg": "/react-store-app-with-redux/static/media/storebg.cd0214c30615a68b3796.jpg",
+    "index.html": "/react-store-app-with-redux/index.html",
+    "main.cc86e729.css.map": "/react-store-app-with-redux/static/css/main.cc86e729.css.map",
+    "main.b69c05f6.js.map": "/react-store-app-with-redux/static/js/main.b69c05f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc86e729.css",
+    "static/js/main.b69c05f6.js"
+  ]
+}

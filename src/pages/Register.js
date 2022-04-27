@@ -71,7 +71,7 @@ const Register = () => {
         </Form>
       </div>
       <div className="p-4 box mt-3 text-center">
-        Already have an account ? <Link to={'/login'}>Login</Link>
+        Already have an account ? <Link to={'/react-store-app-with-redux/login'}>Login</Link>
       </div>
     </div>
   )

@@ -105,7 +105,7 @@ const Login = () => {
           />
         </div>
         <div className="p-1 box mt-3 text-center">
-          Don't have a account ? <Link to="/register"> Sign Up</Link>
+          Don't have a account ? <Link to="/react-store-app-with-redux/register"> Sign Up</Link>
         </div>
       </div>
     </div>
